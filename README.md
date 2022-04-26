@@ -1,13 +1,4 @@
-## Project Overview
-
-This project aims to create a functioning Proof of Concept to articulate the benefits of a knowledge management system that employs a decentralized ledger. As it is a PoC, the initial phase of the project is to create a product that is for demo purposes only. The intention is for the application acquire the look and feel for prospective clients to interact with, but limit the functioning parts of the application to only what is necessary to provide a live demonstration.
-
-Keeping this in mind, the team decided to choose a Mongo-Express-React-Node (MERN) stack to keep the solution lightweight while providing a flexible and strong enough framework to build up to a PoC and beyond. The current demo intention is to access the application using mobile devices via the web browser (no IOS or Android specifcation yet). 
-
-Much of the application requirements are subject to change based on direction from the product owners, but the team has a well-grounded idea of what the demo needs to be able to do and how it should look. The feature backlog, data model and other technical and functional documents can be found in the associated Teams page.
-
-
-## DKX Application Overview
+## DKX Application 
 
 The demo vision currently consists of Analysts (3), Supervisor (1), Executive (1) and an Admin / Facilitator (1). The general workflow begins with a report created by an Analyst based on data sources made available to them. This report collects a variety of metadata and is passed up the chain to the Supervisor and the Executive. The onus is on the Supervisor to collect the reports from the Analysts and aggregate into a communication for the Executive. The novelty of the application will allow users to know where the information was originally sourced from, who contributed it, the level of confidence associated with it etc. and this will manifest itself in the Executive view.
 
