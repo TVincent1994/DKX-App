@@ -1,0 +1,142 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* HOME PAGE CONFIGURATIONS */
+/* -------------------------------------- */
+.home_TextHeader{          /* Header text */
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+header.homeHeader{
+  width: 100%;
+}
+.random{
+  width: 100%;
+}
+
+header.MuiPaper-root{
+  width: 100%;
+}
+
+.messageText{            /* Adjust the message above the home page buttons */
+	font-size: 3px;
+  padding: 0 0 20px 0;
+}
+
+.MuiGrid-root{         /* Align the message above and buttons */ 
+  text-align: center;      /* <-- align message to middle */
+  font-size: 24px;         /* <-- adjust/spread buttons apart */ 
+}
+
+.MuiGrid-grid-xs-12{   /* Set the max-width of button to adjust to */ 
+  width: 350px;
+}
+
+button.MuiButtonBase-root{  /* change the border of home buttons */
+  border-radius: 0;
+}
+
+.MuiButtonBase-root{  /* Change the actual button size */
+  width: 310px;
+}
+
+svg.MuiSvgIcon-root{   /* The menu icon button */
+  padding: 0;
+  font-size: 50px;
+}
+
+.MuiIconButton-label{    /* Move the padding of the menu icon button */
+    margin-left: 230px;
+  }
+
+.MuiPaper-root{   /* The dropdown menu */
+  top: 170px;
+}
+
+.logoutButton{       /* The logout button */
+  height: 70px;
+  width: 100%;
+}
+
+
+
+/* MEDIA RESPONSIVE QUERIES CONFIGURATIONS */
+/* When the screen is less than 320px wide, make make  */
+@media screen and (min-width: 320px) {
+
+  header.MuiPaper-root{
+      width: 100%;
+  }
+
+  .home_TextHeader{          /* Header text */
+      padding: 0;
+      font-family: sans-serif;
+      font-size: 30px;
+      text-align: center;
+      color: black;
+  }
+
+
+  .MuiIconButton-label{  /* Move the padding of the menu icon button */
+    margin-left: 200px;
+  }
+
+  svg.MuiSvgIcon-root{      /* The menu icon button */
+      
+  }
+
+  .logoutButton{            /* The logout button */
+     
+  }
+}
+
+
+@media screen and (min-width: 1024px){
+
+  .home_TextHeader{          /* Header text */
+      padding: 20px;
+      font-size: 50px;
+}
+
+  div.messageText{         /* Adjust the message above the home page buttons */
+    font-size: 200px;
+
+  }
+
+  .MuiButtonBase-root{  /* Change the actual button size */
+      padding: 0px 25px 0px 25px;
+      width: 310px;
+}
+
+svg.MuiSvgIcon-root{   /* The menu icon button */
+  font-size: 70px;
+  margin-right: 20px;
+}
+
+.logoutButton{            /* The logout button */
+     padding-bottom: 40px;
+  }
+
+}
+
+
+
+
+
+
