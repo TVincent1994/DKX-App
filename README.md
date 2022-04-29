@@ -33,9 +33,9 @@ The dependencies can also be run with yarn for the same components using:
 
 The rest, which uses yarn, is provided by Create React App and should still work well to deploy the app.
 
-Navigate to the project directory (kx-app in this example) using:
+Navigate to the project directory (legit-app in this example) using:
 
-### `cd kx-app`
+### `cd legit-app`
 
 Run the app on your local machine using localhost:3000 in a browser of your choice with :
 
