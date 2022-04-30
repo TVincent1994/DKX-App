@@ -11,7 +11,7 @@ For the purposes of the demo, the expectation is for most of the data to be init
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The only modification to the node_module file has been the integration of the material-ui resources. However, the node_modules file has not been uploaded here for storage.
 
 **Material-UI Resources**
-The below accounts for the dependent installs to support the material-ui React components and features used thus far. Within the kx-app project directory:
+The below accounts for the dependent installs to support the material-ui React components and features used thus far. Within the legit-app project directory:
 
 `npm install @material-ui/core`
 
